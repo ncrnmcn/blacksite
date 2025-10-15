@@ -1,6 +1,8 @@
 ---
-title: Welcome to Quartz
+title: blacksite
+draft: false
+tags:
+  -
 ---
-
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+ 
+Lets go.
