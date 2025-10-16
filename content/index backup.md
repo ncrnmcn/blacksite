@@ -1,12 +1,11 @@
 ---
 title: blacksite
-draft: false
-dg-publish: true
-dg-home: true
+draft: true
+dg-publish: false
+dg-home: false
 tags:
   -
 ---
  
 Lets go.vvv fckn yaml oid.
 
-from the ipad.
