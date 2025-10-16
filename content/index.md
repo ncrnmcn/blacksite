@@ -6,7 +6,4 @@ dg-home: true
 tags:
   -
 ---
- 
-Lets go.vvv fckn yaml oid.
-
-from the ipad.
+Restricted Access.
