@@ -6,10 +6,6 @@ dg-home: true
 tags:
   -
 ---
-## alpha
+Well this didn't seem to work.
 
-Restricted access!!
-
-![[index 2025-10-17 12.45.23.excalidraw]]
-
-![[index 2025-10-17 09.14.01.excalidraw]]
+Head to the [[lab]].
