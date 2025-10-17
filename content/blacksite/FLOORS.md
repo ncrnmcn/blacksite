@@ -1,6 +1,6 @@
 ---
 title: template
-draft: true
+draft: false
 dg-publish: false
 tags:
   -
