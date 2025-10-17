@@ -10,4 +10,6 @@ tags:
 
 Restricted access!!
 
+![[index 2025-10-17 12.45.23.excalidraw]]
+
 ![[index 2025-10-17 09.14.01.excalidraw]]
