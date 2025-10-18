@@ -1,5 +1,5 @@
 ---
-title: blacksite
+title: alpha123
 draft: false
 dg-publish: true
 dg-home: true
@@ -10,10 +10,6 @@ Well this didn't seem to work.
 
 Head to the [[lab]].
 
- [contact](mailto:pimme@pimmel.com)
+Let‘s see what the #players are up to.
 
-[okkultra.com](https://www.okkultra.com)
-
-[[scan001.jpg]]
-
-![[scan001.jpg]]
+Join [[commlink7]].
