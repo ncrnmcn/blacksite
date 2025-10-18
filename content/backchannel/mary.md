@@ -1,5 +1,5 @@
 ---
-title: template
+title: Mary
 draft: false
 dg-publish: true
 tags:
