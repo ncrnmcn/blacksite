@@ -14,5 +14,6 @@ Head to the [[lab]].
 
 [okkultra.com](https://www.okkultra.com)
 
+[[scan001.jpg]]
 
 ![[scan001.jpg]]
