@@ -10,7 +10,7 @@ Well this didn't seem to work.
 
 Head to the [[lab]].
 
-okkultra@proton.me
+ [contact](mailto:pimme@pimmel.com)
 
 [okkultra.com](https://www.okkultra.com)
 
