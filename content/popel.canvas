@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"19d54579e155e385","type":"text","text":"Just to make sure.","x":-125,"y":-30,"width":250,"height":60},
+		{"id":"155ef39abbcfa32d","x":-125,"y":80,"width":250,"height":140,"type":"text","text":"huh\n"}
+	],
+	"edges":[
+		{"id":"171c12dca7d0bdea","fromNode":"19d54579e155e385","fromSide":"bottom","toNode":"155ef39abbcfa32d","toSide":"top"}
+	]
+}
