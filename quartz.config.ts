@@ -40,15 +40,15 @@ const config: QuartzConfig = {
           textHighlight: "#fff23688",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#514351", //backgr
+          lightgray: "#f2fce7", //borders
+          gray: "#f2fce7", //graph links
+          darkgray: "#f2fce7", //body text
+          dark: "#dcf7bf", //header text
+          secondary: "#514351", // link color
+          tertiary: "#dcf7bf", // hover
+          highlight: "#f2fce7", // internal link back
+          textHighlight: "F1E7FC", // mark high
         },
       },
     },
