@@ -22,39 +22,39 @@ export default {
       quote: "Quote",
     },
     backlinks: {
-      title: "Backlinks",
-      noBacklinksFound: "No backlinks found",
+      title: "back.trace",
+      noBacklinksFound: "invalid",
     },
     themeToggle: {
-      lightMode: "Light mode",
-      darkMode: "Dark mode",
+      lightMode: "light",
+      darkMode: "dark",
     },
     readerMode: {
-      title: "Reader mode",
+      title: "focus",
     },
     explorer: {
-      title: "Explorer",
+      title: "sub.echo.net",
     },
     footer: {
       createdWith: "Created with",
     },
     graph: {
-      title: "Graph View",
+      title: "local_node",
     },
     recentNotes: {
       title: "Recent Notes",
       seeRemainingMore: ({ remaining }) => `See ${remaining} more →`,
     },
     transcludes: {
-      transcludeOf: ({ targetSlug }) => `Transclude of ${targetSlug}`,
-      linkToOriginal: "Link to original",
+      transcludeOf: ({ targetSlug }) => `source: ${targetSlug}`,
+      linkToOriginal: "access source",
     },
     search: {
-      title: "Search",
-      searchBarPlaceholder: "Search for something",
+      title: "scan",
+      searchBarPlaceholder: "scan local node",
     },
     tableOfContents: {
-      title: "Table of Contents",
+      title: "index",
     },
     contentMeta: {
       readingTime: ({ minutes }) => `${minutes} min read`,
@@ -66,9 +66,9 @@ export default {
       lastFewNotes: ({ count }) => `Last ${count} notes`,
     },
     error: {
-      title: "Not Found",
-      notFound: "Either this page is private or doesn't exist.",
-      home: "Return to Homepage",
+      title: "access restricted",
+      notFound: "active_encryption.mdenc",
+      home: "return:0xH0M3",
     },
     folderContent: {
       folder: "Folder",
