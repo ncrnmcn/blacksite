@@ -8,11 +8,4 @@ date created: Sunday, October 19th 2025, 1:02:26 pm
 date modified: Sunday, October 19th 2025, 1:18:11 pm
 dg-home: true
 ---
-
-Aye caramba. So many moving parts.
-
-![[Unbenannt-2025-10-19-1251.excalidraw.png]]
-
-[[popel.canvas|popel]]
-
-![[popel.canvas|popel]]
+1.1 mfcks
