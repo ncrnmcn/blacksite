@@ -2,8 +2,8 @@ import { Translation } from "./definition"
 
 export default {
   propertyDefaults: {
-    title: "Untitled",
-    description: "No description provided",
+    title: "untitled",
+    description: "no data",
   },
   components: {
     callout: {
@@ -76,12 +76,12 @@ export default {
         count === 1 ? "1 item under this folder." : `${count} items under this folder.`,
     },
     tagContent: {
-      tag: "Tag",
-      tagIndex: "Tag Index",
+      tag: "trace",
+      tagIndex: "trace index",
       itemsUnderTag: ({ count }) =>
-        count === 1 ? "1 item with this tag." : `${count} items with this tag.`,
-      showingFirst: ({ count }) => `Showing first ${count} tags.`,
-      totalTags: ({ count }) => `Found ${count} total tags.`,
+        count === 1 ? "1 entry with this trace." : `${count} entries with this trace.`,
+      showingFirst: ({ count }) => `showing querry of ${count} traces.`,
+      totalTags: ({ count }) => `found ${count} total traces.`,
     },
   },
 } as const satisfies Translation
