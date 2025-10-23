@@ -12,17 +12,6 @@
 			"color":"#819429"
 		},
 		{
-			"id":"fc687f0e19ca2225",
-			"type":"text",
-			"text":"ttestc",
-			"styleAttributes":{},
-			"x":-120,
-			"y":60,
-			"width":260,
-			"height":60,
-			"color":"#819429"
-		},
-		{
 			"id":"f4f8a0acc053f198",
 			"type":"text",
 			"text":"",
@@ -32,6 +21,17 @@
 			"width":260,
 			"height":60,
 			"color":"#282a37"
+		},
+		{
+			"id":"fc687f0e19ca2225",
+			"type":"text",
+			"text":"ttestc",
+			"styleAttributes":{},
+			"x":-180,
+			"y":60,
+			"width":510,
+			"height":120,
+			"color":"#819429"
 		}
 	],
 	"edges":[
