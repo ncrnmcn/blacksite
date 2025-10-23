@@ -11,3 +11,7 @@ dg-home: true
 1.1 mfcks
 
 this is still working?
+
+[[the lab]]
+
+![[111Untitled.png]]
