@@ -8,10 +8,7 @@ date created: Sunday, October 19th 2025, 1:02:26 pm
 date modified: Sunday, October 19th 2025, 1:18:11 pm
 dg-home: true
 ---
-1.12 mfcks
 
-this is still working?
+past lives.
 
-[[the lab]]
-
-![[111Untitled.png]]
+![[signal-2025-02-16-21-12-18-360.jpg]]
