@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "blacksitΣ",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -16,15 +16,15 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "https://ncrnmcn.github.io/blacksite",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        header: "Victor Mono",
+        body: "Victor Mono",
         code: "IBM Plex Mono",
       },
       colors: {
@@ -40,15 +40,15 @@ const config: QuartzConfig = {
           textHighlight: "#fff23688",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#140208", //backgr
+          lightgray: "#819429", //borders
+          gray: "#819429", //graph links
+          darkgray: "#819429", //body text
+          dark: "#819429", //header text
+          secondary: "#819429", // link color
+          tertiary: "#819429", // hover
+          highlight: "#31380F", // internal link back
+          textHighlight: "#31380F", // mark high
         },
       },
     },
@@ -56,9 +56,9 @@ const config: QuartzConfig = {
   plugins: {
     transformers: [
       Plugin.FrontMatter(),
-      Plugin.CreatedModifiedDate({
-        priority: ["frontmatter", "git", "filesystem"],
-      }),
+      //Plugin.CreatedModifiedDate({
+      //  priority: ["frontmatter", "git", "filesystem"],
+      //}),
       Plugin.SyntaxHighlighting({
         theme: {
           light: "github-light",
