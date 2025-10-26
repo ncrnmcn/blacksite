@@ -9,6 +9,8 @@ date modified: Sunday, October 19th 2025, 1:18:11 pm
 dg-home: true
 ---
 
-past lives.34
+past lives.34. 
+
+cann i still push?
 
 ![[signal-2025-02-16-21-12-18-360.jpg]]
