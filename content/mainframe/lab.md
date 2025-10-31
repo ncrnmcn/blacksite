@@ -1,7 +1,7 @@
 ---
 title: the lab
-draft: false
-dg-publish: true
+draft: true
+dg-publish: false
 tags:
   -
 ---
