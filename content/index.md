@@ -9,6 +9,18 @@ date modified: Friday, October 31st 2025, 8:45:27 am
 dg-home: true
 ---
 
+**Ein bisschen Halloween muss sein.**
+
+Heute Abend seid ihr _John_ – oder das, was von ihm übrig ist. Diesmal hat es ihn übel erwischt.  
+Werdet ihr herausfinden, was mit ihm geschehen ist? Und könnt ihr seine seltsamen Obsessionen erfüllen?
+
+Lasst es uns herausfinden.
+
+Verkleidung ist ausdrücklich erwünscht.
+
+Übrigens… meint ihr, diese Seite hat etwas mit der kommenden Kampagne zu tun?  
+Wer weiß …
+
 ## 🧟‍♂️ **THE TURN STRUCTURE**
 
 ### 1. **Wake Up**
