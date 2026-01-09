@@ -1,5 +1,5 @@
 ---
-title: blacksite_template01
+title:
 tags: []
 draft: true
 enableToc: false

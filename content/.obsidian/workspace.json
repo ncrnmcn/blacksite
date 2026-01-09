@@ -83,26 +83,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99private/002 people/!Billy Reed.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "!Billy Reed"
-            }
-          },
-          {
-            "id": "2cbd8c4baede019a",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "title": "index"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       },
       {
         "id": "49a207ad917e4f97",
@@ -187,12 +177,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "templates/template01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "template01"
             }
           }
         ],
@@ -250,7 +240,7 @@
             }
           },
           {
-            "id": "950f07db665b05bc",
+            "id": "f83ec0cb8844d528",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -366,11 +356,18 @@
       "meld-encrypt:Encrypt Selection": false,
       "meld-encrypt:Decrypt at Cursor": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "remotely-save:Remotely Save": false,
+      "local-backup:Run local backup": false
     }
   },
-  "active": "672e91593ed6a286",
+  "active": "ca11460e76ae4e93",
   "lastOpenFiles": [
+    "templates/template01.md",
+    "Untitled.md",
+    "Untitled",
+    "private",
+    "index.md",
     "To-do.md",
     "viet.md",
     "88 Vietnam/viet.md",
@@ -393,10 +390,6 @@
     "00-09 sys admin/01 inbox/01.30 ideas/edc.md",
     "00-09 sys admin/00 meta/00.10 mocs/tasks.md",
     "00-09 sys admin/00 meta/00.10 mocs/death.md",
-    "00-09 sys admin/03 todo/03.10 todos/todos.md",
-    "10-19 life admin/14 buy and sell/Untitled.md",
-    "00-09 sys admin/00 meta/00.10 mocs/linter.md",
-    "10-19 life admin/14 buy and sell/Sabrina.md",
     "20-29 hobbies/21 pnp/21.99 pnp archive/The Lost Bookshop/CNVS The Lost Bookshop.canvas",
     "20-29 hobbies/21 pnp/21.99 pnp archive/The Lost Bookshop/ACFW",
     "20-29 hobbies/21 pnp/21.99 pnp archive/The Lost Bookshop/Summaries",
@@ -406,8 +399,6 @@
     "00-09 sys admin/07 data/07.20 excalidraw/extemp",
     "20-29 hobbies/22 video games/22.01 game notes/Fallout 4",
     "20-29 hobbies/22 video games/22.10 game notes/Fallout 4",
-    "20-29 hobbies/21 pnp/21.99 pnp archive/The Lost Bookshop",
-    "20-29 hobbies/21 pnp/21.80 HLWN",
     "99private/Excalidraw/!Die Hütte 2025-12-29 15.50.32.excalidraw.png",
     "99private/001 plot/M01 SWC/S01 Honkers/S01map.canvas",
     "99private/Excalidraw/template.png",
