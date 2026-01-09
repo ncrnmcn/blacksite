@@ -2,8 +2,8 @@ import { Translation } from "./definition"
 
 export default {
   propertyDefaults: {
-    title: "Untitled",
-    description: "No description provided",
+    title: "untitled",
+    description: "no data",
   },
   components: {
     callout: {
@@ -22,39 +22,39 @@ export default {
       quote: "Quote",
     },
     backlinks: {
-      title: "Backlinks",
-      noBacklinksFound: "No backlinks found",
+      title: "back.trace",
+      noBacklinksFound: "invalid",
     },
     themeToggle: {
-      lightMode: "Light mode",
-      darkMode: "Dark mode",
+      lightMode: "light",
+      darkMode: "dark",
     },
     readerMode: {
-      title: "Reader mode",
+      title: "focus",
     },
     explorer: {
-      title: "Explorer",
+      title: "sub.echo.net",
     },
     footer: {
       createdWith: "Created with",
     },
     graph: {
-      title: "Graph View",
+      title: "local_node",
     },
     recentNotes: {
       title: "Recent Notes",
       seeRemainingMore: ({ remaining }) => `See ${remaining} more →`,
     },
     transcludes: {
-      transcludeOf: ({ targetSlug }) => `Transclude of ${targetSlug}`,
-      linkToOriginal: "Link to original",
+      transcludeOf: ({ targetSlug }) => `source: ${targetSlug}`,
+      linkToOriginal: "access source",
     },
     search: {
-      title: "Search",
-      searchBarPlaceholder: "Search for something",
+      title: "scan",
+      searchBarPlaceholder: "scan local node",
     },
     tableOfContents: {
-      title: "Table of Contents",
+      title: "index",
     },
     contentMeta: {
       readingTime: ({ minutes }) => `${minutes} min read`,
@@ -66,9 +66,9 @@ export default {
       lastFewNotes: ({ count }) => `Last ${count} notes`,
     },
     error: {
-      title: "Not Found",
-      notFound: "Either this page is private or doesn't exist.",
-      home: "Return to Homepage",
+      title: "access restricted",
+      notFound: "active_encryption.mdenc",
+      home: "return:0xH0M3",
     },
     folderContent: {
       folder: "Folder",
@@ -76,12 +76,12 @@ export default {
         count === 1 ? "1 item under this folder." : `${count} items under this folder.`,
     },
     tagContent: {
-      tag: "Tag",
-      tagIndex: "Tag Index",
+      tag: "trace",
+      tagIndex: "trace index",
       itemsUnderTag: ({ count }) =>
-        count === 1 ? "1 item with this tag." : `${count} items with this tag.`,
-      showingFirst: ({ count }) => `Showing first ${count} tags.`,
-      totalTags: ({ count }) => `Found ${count} total tags.`,
+        count === 1 ? "1 entry with this trace." : `${count} entries with this trace.`,
+      showingFirst: ({ count }) => `showing querry of ${count} traces.`,
+      totalTags: ({ count }) => `found ${count} total traces.`,
     },
   },
 } as const satisfies Translation
