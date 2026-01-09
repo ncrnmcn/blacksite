@@ -1,0 +1,37 @@
+{
+  "items": [
+    {
+      "type": "graph",
+      "ctime": 1761155333658,
+      "title": "q published ",
+      "options": {
+        "collapse-filter": false,
+        "search": "[draft: false]",
+        "showTags": false,
+        "showAttachments": false,
+        "hideUnresolved": false,
+        "showOrphans": true,
+        "collapse-color-groups": true,
+        "colorGroups": [],
+        "collapse-display": true,
+        "showArrow": false,
+        "textFadeMultiplier": 0,
+        "nodeSizeMultiplier": 1,
+        "lineSizeMultiplier": 1,
+        "collapse-forces": true,
+        "centerStrength": 0.518713248970312,
+        "repelStrength": 10,
+        "linkStrength": 1,
+        "linkDistance": 250,
+        "scale": 1,
+        "close": false
+      }
+    },
+    {
+      "type": "search",
+      "ctime": 1766076746097,
+      "query": "[\"tags\":",
+      "title": "tag search"
+    }
+  ]
+}

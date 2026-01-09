@@ -1,0 +1,413 @@
+{
+  "main": {
+    "id": "c31f943020ccaecb",
+    "type": "split",
+    "children": [
+      {
+        "id": "f09a782c9d72baf6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "016fca7730720343",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "99private/004 locations/!Die Hütte.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "!Die Hütte"
+            }
+          },
+          {
+            "id": "14bd6d57397d8256",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "99private/002 people/!Marcus Brady.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "!Marcus Brady"
+            }
+          },
+          {
+            "id": "459a63ce2ea3abab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "99private/logs/26-01-08.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "26-01-08"
+            }
+          },
+          {
+            "id": "46aa52ed68919613",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "99private/004 locations/!Redfield Overview.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "!Redfield Overview"
+            }
+          },
+          {
+            "id": "bd1fd8108a3c32aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "99private/ress/Names.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Names"
+            }
+          },
+          {
+            "id": "ca11460e76ae4e93",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ],
+        "currentTab": 5
+      },
+      {
+        "id": "49a207ad917e4f97",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d69ff75e4a461d59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "99private/001 plot/M01 SWC/!M01.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "!M01"
+            }
+          },
+          {
+            "id": "88b9aaa2ea3c34a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "99private/001 plot/M01 SWC/S01 Honkers/S01 Honkers.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "S01 Honkers"
+            }
+          },
+          {
+            "id": "485b70441c481273",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "99private/001 plot/M01 SWC/S01 Honkers/S01map.canvas",
+                "viewState": {
+                  "x": 20,
+                  "y": -190,
+                  "zoom": -0.00730480062323356
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "S01map"
+            }
+          },
+          {
+            "id": "10799c3d10183e76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "99private/logs/25-12-23.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "25-12-23"
+            }
+          },
+          {
+            "id": "1964f86d406b3184",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "99private/004 locations/!Honkers.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "!Honkers"
+            }
+          },
+          {
+            "id": "672e91593ed6a286",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4ea7b0a7268ee1d6",
+    "type": "split",
+    "children": [
+      {
+        "id": "de3520280e7fb80b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d901606d27084d27",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8c4aaf67f8cd7db7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:people",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "cd0de36fc8864d45",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "7279130addb8b358",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "com.maxymillion.zen",
+              "state": {},
+              "pinned": true,
+              "icon": "eye",
+              "title": "Zen"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 346.5
+  },
+  "right": {
+    "id": "f52aa6b7ea05ef69",
+    "type": "split",
+    "children": [
+      {
+        "id": "a09bf64890f98e51",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d17faa9b1b3370c3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "private/ress/Mother of All Hit Locations.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Mother of All Hit Locations"
+            }
+          },
+          {
+            "id": "44da6b5773fdd1a4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "private/ress/Mother of All Hit Locations.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Mother of All Hit Locations"
+            }
+          },
+          {
+            "id": "694f11016f22eb2a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": true,
+                "searchQuery": "S00"
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ea351153f0a4e0bb",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "quiet-outline"
+            }
+          },
+          {
+            "id": "d250f4f311886e30",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 363.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-stille:Toggle Stille": false,
+      "templater-obsidian:Templater": false,
+      "meld-encrypt:New encrypted note": false,
+      "meld-encrypt:Lock and Close all open encrypted notes": false,
+      "meld-encrypt:Convert to or from an Encrypted note": false,
+      "meld-encrypt:Encrypt Selection": false,
+      "meld-encrypt:Decrypt at Cursor": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "remotely-save:Remotely Save": false,
+      "local-backup:Run local backup": false
+    }
+  },
+  "active": "672e91593ed6a286",
+  "lastOpenFiles": [
+    "private/HLWN26.md",
+    "Arcadia.md",
+    "index.md",
+    "Untitled.md",
+    "meta/lint.md",
+    "meta/Plugins.md",
+    "images/blacksite.svg",
+    "mainframe/lab.md",
+    "private/unfication.md",
+    "Excalidraw/template.excalidraw.md",
+    "images/signal-2025-02-16-21-12-18-360.jpg",
+    "templates/template01.md",
+    "mainframe/index backup.md",
+    "images/canva/test canvas.canvas",
+    "images/canva",
+    "meta",
+    "images",
+    "private",
+    "templates",
+    "mainframe",
+    "Excalidraw",
+    "backchannel",
+    "To-do.md",
+    "viet.md",
+    "88 Vietnam/viet.md",
+    "Manifest.md",
+    "Latest.md",
+    "88 Vietnam/Reisedetails.md",
+    "88 Vietnam/Creativity.md",
+    "20-29 hobbies/22 video games/22.10 game notes/Fallout 4/Fallout 4 survival.md",
+    "88 Vietnam/unification.md",
+    "00-09 sys admin/06 config/keyboards.md",
+    "00-09 sys admin/00-09 sys admin.md",
+    "00-09 sys admin/04 links/04 links.md",
+    "10-19 life admin/15 media/watchlist.md",
+    "10-19 life admin/14 buy and sell/Buy.md",
+    "20-29 hobbies/21 pnp/21.23 Odyssee/A02.md",
+    "20-29 hobbies/21 pnp/21.99 pnp archive/The Lost Bookshop/CNVS The Lost Bookshop.canvas",
+    "20-29 hobbies/21 pnp/21.99 pnp archive/The Lost Bookshop/ACFW",
+    "20-29 hobbies/21 pnp/21.99 pnp archive/The Lost Bookshop/Summaries",
+    "99private/Excalidraw/!Die Hütte 2025-12-29 15.50.32.excalidraw.png",
+    "99private/001 plot/M01 SWC/S01 Honkers/S01map.canvas",
+    "99private/Excalidraw/template.png",
+    "images/canvas/template.canvas",
+    "images/props/S00-P01.jpg",
+    "images/RedfielMap.jpg",
+    "images/Hemlock.png",
+    "images/Hemlock.jpg",
+    "images/Redfield2.jpg",
+    "images/Redfield1.jpg"
+  ]
+}
