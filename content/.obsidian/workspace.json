@@ -81,6 +81,20 @@
             "id": "ca11460e76ae4e93",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "99private/002 people/!Billy Reed.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "!Billy Reed"
+            }
+          },
+          {
+            "id": "2cbd8c4baede019a",
+            "type": "leaf",
+            "state": {
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
@@ -88,7 +102,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       },
       {
         "id": "49a207ad917e4f97",
@@ -236,7 +250,7 @@
             }
           },
           {
-            "id": "7279130addb8b358",
+            "id": "950f07db665b05bc",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -315,8 +329,8 @@
             "state": {
               "type": "quiet-outline",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "quiet-outline"
+              "icon": "lines-of-text",
+              "title": "Quiet Outline"
             }
           },
           {
@@ -352,35 +366,11 @@
       "meld-encrypt:Encrypt Selection": false,
       "meld-encrypt:Decrypt at Cursor": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "remotely-save:Remotely Save": false,
-      "local-backup:Run local backup": false
+      "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
   "active": "672e91593ed6a286",
   "lastOpenFiles": [
-    "private/HLWN26.md",
-    "Arcadia.md",
-    "index.md",
-    "Untitled.md",
-    "meta/lint.md",
-    "meta/Plugins.md",
-    "images/blacksite.svg",
-    "mainframe/lab.md",
-    "private/unfication.md",
-    "Excalidraw/template.excalidraw.md",
-    "images/signal-2025-02-16-21-12-18-360.jpg",
-    "templates/template01.md",
-    "mainframe/index backup.md",
-    "images/canva/test canvas.canvas",
-    "images/canva",
-    "meta",
-    "images",
-    "private",
-    "templates",
-    "mainframe",
-    "Excalidraw",
-    "backchannel",
     "To-do.md",
     "viet.md",
     "88 Vietnam/viet.md",
@@ -396,9 +386,28 @@
     "10-19 life admin/15 media/watchlist.md",
     "10-19 life admin/14 buy and sell/Buy.md",
     "20-29 hobbies/21 pnp/21.23 Odyssee/A02.md",
+    "00-09 sys admin/00 meta/00.10 mocs/diy.md",
+    "00-09 sys admin/00 meta/00.10 mocs/pnp.md",
+    "20-29 hobbies/21 pnp/21.23 Odyssee/Linta.md",
+    "20-29 hobbies/21 pnp/21.23 Odyssee/Ideas.md",
+    "00-09 sys admin/01 inbox/01.30 ideas/edc.md",
+    "00-09 sys admin/00 meta/00.10 mocs/tasks.md",
+    "00-09 sys admin/00 meta/00.10 mocs/death.md",
+    "00-09 sys admin/03 todo/03.10 todos/todos.md",
+    "10-19 life admin/14 buy and sell/Untitled.md",
+    "00-09 sys admin/00 meta/00.10 mocs/linter.md",
+    "10-19 life admin/14 buy and sell/Sabrina.md",
     "20-29 hobbies/21 pnp/21.99 pnp archive/The Lost Bookshop/CNVS The Lost Bookshop.canvas",
     "20-29 hobbies/21 pnp/21.99 pnp archive/The Lost Bookshop/ACFW",
     "20-29 hobbies/21 pnp/21.99 pnp archive/The Lost Bookshop/Summaries",
+    "20-29 hobbies/21 pnp/21.23 Odyssee/old",
+    "20-29 hobbies/21 pnp/21.80 HLWN/HLWN25",
+    "20-29 hobbies/21 pnp/21.23 Odyssee/Session logs",
+    "00-09 sys admin/07 data/07.20 excalidraw/extemp",
+    "20-29 hobbies/22 video games/22.01 game notes/Fallout 4",
+    "20-29 hobbies/22 video games/22.10 game notes/Fallout 4",
+    "20-29 hobbies/21 pnp/21.99 pnp archive/The Lost Bookshop",
+    "20-29 hobbies/21 pnp/21.80 HLWN",
     "99private/Excalidraw/!Die Hütte 2025-12-29 15.50.32.excalidraw.png",
     "99private/001 plot/M01 SWC/S01 Honkers/S01map.canvas",
     "99private/Excalidraw/template.png",
@@ -408,6 +417,8 @@
     "images/Hemlock.png",
     "images/Hemlock.jpg",
     "images/Redfield2.jpg",
-    "images/Redfield1.jpg"
+    "images/Redfield1.jpg",
+    "images/nomad.svg",
+    "images/Refield2.jpg"
   ]
 }
