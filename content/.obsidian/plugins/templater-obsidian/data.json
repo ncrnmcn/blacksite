@@ -16,7 +16,7 @@
   "folder_templates": [
     {
       "folder": "/",
-      "template": "templates/template01.md"
+      "template": "templates/nomad_template01.md"
     }
   ],
   "enable_file_templates": false,

@@ -83,16 +83,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "99private/002 people/!Billy Reed.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "!Billy Reed"
+            }
+          },
+          {
+            "id": "2cbd8c4baede019a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       },
       {
         "id": "49a207ad917e4f97",
@@ -177,12 +187,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/template01.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "template01"
+              "title": "index"
             }
           }
         ],
@@ -240,7 +250,7 @@
             }
           },
           {
-            "id": "ecf765f824f527fc",
+            "id": "c3ceffc516d2dc7b",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -319,8 +329,8 @@
             "state": {
               "type": "quiet-outline",
               "state": {},
-              "icon": "lines-of-text",
-              "title": "Quiet Outline"
+              "icon": "lucide-ghost",
+              "title": "quiet-outline"
             }
           },
           {
@@ -342,6 +352,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "local-backup:Run local backup": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
@@ -357,17 +368,32 @@
       "meld-encrypt:Decrypt at Cursor": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "remotely-save:Remotely Save": false,
-      "local-backup:Run local backup": false
+      "remotely-save:Remotely Save": false
     }
   },
-  "active": "ca11460e76ae4e93",
+  "active": "672e91593ed6a286",
   "lastOpenFiles": [
-    "templates/template01.md",
-    "Untitled.md",
-    "Untitled",
-    "private",
     "index.md",
+    "meta/lint.md",
+    "meta/Plugins.md",
+    "mainframe/lab.md",
+    "images/blacksite.svg",
+    "backchannel/mary.md",
+    "backchannel/tyler.md",
+    "templates/template01.md",
+    "images/canva/test canvas.canvas",
+    "private/Excalidraw/template.excalidraw.md",
+    "backchannel/commlink7.md",
+    "images/signal-2025-02-16-21-12-18-360.jpg",
+    "mainframe/index backup.md",
+    "images/canva",
+    "private/Excalidraw",
+    "meta",
+    "images",
+    "private",
+    "templates",
+    "mainframe",
+    "backchannel",
     "To-do.md",
     "viet.md",
     "88 Vietnam/viet.md",
@@ -384,21 +410,9 @@
     "10-19 life admin/14 buy and sell/Buy.md",
     "20-29 hobbies/21 pnp/21.23 Odyssee/A02.md",
     "00-09 sys admin/00 meta/00.10 mocs/diy.md",
-    "00-09 sys admin/00 meta/00.10 mocs/pnp.md",
-    "20-29 hobbies/21 pnp/21.23 Odyssee/Linta.md",
-    "20-29 hobbies/21 pnp/21.23 Odyssee/Ideas.md",
-    "00-09 sys admin/01 inbox/01.30 ideas/edc.md",
-    "00-09 sys admin/00 meta/00.10 mocs/tasks.md",
-    "00-09 sys admin/00 meta/00.10 mocs/death.md",
     "20-29 hobbies/21 pnp/21.99 pnp archive/The Lost Bookshop/CNVS The Lost Bookshop.canvas",
     "20-29 hobbies/21 pnp/21.99 pnp archive/The Lost Bookshop/ACFW",
     "20-29 hobbies/21 pnp/21.99 pnp archive/The Lost Bookshop/Summaries",
-    "20-29 hobbies/21 pnp/21.23 Odyssee/old",
-    "20-29 hobbies/21 pnp/21.80 HLWN/HLWN25",
-    "20-29 hobbies/21 pnp/21.23 Odyssee/Session logs",
-    "00-09 sys admin/07 data/07.20 excalidraw/extemp",
-    "20-29 hobbies/22 video games/22.01 game notes/Fallout 4",
-    "20-29 hobbies/22 video games/22.10 game notes/Fallout 4",
     "99private/Excalidraw/!Die Hütte 2025-12-29 15.50.32.excalidraw.png",
     "99private/001 plot/M01 SWC/S01 Honkers/S01map.canvas",
     "99private/Excalidraw/template.png",
@@ -408,8 +422,6 @@
     "images/Hemlock.png",
     "images/Hemlock.jpg",
     "images/Redfield2.jpg",
-    "images/Redfield1.jpg",
-    "images/nomad.svg",
-    "images/Refield2.jpg"
+    "images/Redfield1.jpg"
   ]
 }
