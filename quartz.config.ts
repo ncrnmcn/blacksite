@@ -29,15 +29,15 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#1B0A1B",        // background (primary dark base)
+          lightgray: "#2E1A2E",    // thin lines, frames, graph connections, search background
+          gray: "#6F7738",         // text in search box, graph links highlight
+          darkgray: "#8A9243",     // loupe, symbols, body text, credits
+          dark: "#9EA74E",         // headings, unhighlighted folder content, mini graph symbols, node text
+          secondary: "#A8B05A",    // header, folders, tags text, active node, embed line, link text
+          tertiary: "#4A5224",     // selected text background, mouse over, non-active node
+          highlight: "#31380F",    // internal link background
+          textHighlight: "#5C642C" // marked / highlighted text
         },
         darkMode: {
           light: "#121E20", //backgr
