@@ -41,8 +41,8 @@ const config: QuartzConfig = {
         },
         darkMode: {
           light: "#121E20", //backgr
-          lightgray: "#ff0066", //culprit
-          gray: "#819429", //graph links
+          lightgray: "#819429", //culprit
+          gray: "#ff0066", //graph links
           darkgray: "#819429", //body text
           dark: "#819429", //headings and folder content
           secondary: "#819429", // header, ordner, tags text
