@@ -29,26 +29,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#1B0A1B",        // background (primary dark base)
-          lightgray: "#2E1A2E",    // thin lines, frames, graph connections, search background
-          gray: "#6F7738",         // text in search box, graph links highlight
-          darkgray: "#8A9243",     // loupe, symbols, body text, credits
-          dark: "#9EA74E",         // headings, unhighlighted folder content, mini graph symbols, node text
-          secondary: "#A8B05A",    // header, folders, tags text, active node, embed line, link text
-          tertiary: "#4A5224",     // selected text background, mouse over, non-active node
-          highlight: "#31380F",    // internal link background
-          textHighlight: "#5C642C" // marked / highlighted text
+          light: "#91F81F",        // background (swapped)
+          lightgray: "#A6FF4D",    // thin lines, frames, search background
+          gray: "#4E7A2C",         // text in search box, graph links highlight
+          darkgray: "#2F4D1C",     // loupe, symbols, body text, credits
+          dark: "#1F3313",         // headings, unhighlighted folder content, node text
+          secondary: "#2F4D1C",    // header, folders, tags, active node, links
+          tertiary: "#6FB83A",     // selected text background, hover, inactive node
+          highlight: "#4E7A2C",    // internal link background
+          textHighlight: "#6FB83A" // marked text background
         },
         darkMode: {
-          light: "#121E20", //backgr
-          lightgray: "#819429", //culprit
-          gray: "#819429", //graph links
-          darkgray: "#819429", //body text
-          dark: "#819429", //headings and folder content
-          secondary: "#819429", // header, ordner, tags text
-          tertiary: "#819429", // markierter text, mouse over
-          highlight: "#819429", // internal link back
-          textHighlight: "#ff0000", // mark high
+          light: "#0F1A09",        // background
+          lightgray: "#1F3313",    // thin lines, frames, graph connections, search background
+          gray: "#4E7A2C",         // text in search box, graph links highlight
+          darkgray: "#6FB83A",     // loupe, symbols, body text, credits
+          dark: "#91F81F",         // headings, unhighlighted folder content, node text
+          secondary: "#A6FF4D",    // header, folders, tags, active node, links
+          tertiary: "#2F4D1C",     // selected text background, hover, inactive node
+          highlight: "#1F3313",    // internal link background
+          textHighlight: "#3F6625" // marked text background
         },
       },
     },
