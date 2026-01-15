@@ -42,7 +42,7 @@ const config: QuartzConfig = {
         darkMode: {
           light: "#140208", //backgr
           lightgray: "#819429", //borders
-          gray: "#819429", //graph links
+          gray: "#ff0000", //graph links
           darkgray: "#819429", //body text
           dark: "#4352fb", //header text
           secondary: "#bcb7cd", // link color
