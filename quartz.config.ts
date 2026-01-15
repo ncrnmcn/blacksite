@@ -45,9 +45,9 @@ const config: QuartzConfig = {
           gray: "#819429", //graph links
           darkgray: "#819429", //body text
           dark: "#819429", //headings and folder content
-          secondary: "#ff0066", // header, ordner, tags text
+          secondary: "#819429", // header, ordner, tags text
           tertiary: "#ed9121", // markierter text, mouse over
-          highlight: "#31380F", // internal link back
+          highlight: "#ff0066", // internal link back
           textHighlight: "#31380F", // mark high
         },
       },
