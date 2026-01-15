@@ -44,7 +44,7 @@ const config: QuartzConfig = {
           lightgray: "#819429", //borders
           gray: "#819429", //graph links
           darkgray: "#819429", //body text
-          dark: "#819429", //header text
+          dark: "#4352fb", //header text
           secondary: "#bcb7cd", // link color
           tertiary: "#ff0066", // hover
           highlight: "#31380F", // internal link back
