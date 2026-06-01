@@ -3,8 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 /**
  * Quartz 4 Configuration
- *
- * See https://quartz.jzhao.xyz/configuration for more information.
+ * BLACKSITE — SECURITY BREACH THEME
  */
 const config: QuartzConfig = {
   configuration: {
@@ -23,32 +22,34 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Victor Mono",
-        body: "Victor Mono",
-        code: "IBM Plex Mono",
+        header: "Share Tech Mono",   // corrupted broadcast terminal feel
+        body: "Victor Mono",         // keeping your existing body font
+        code: "IBM Plex Mono",       // keeping your existing code font
       },
       colors: {
         lightMode: {
-          light: "#9EA74E",        // background (swapped)
-          lightgray: "#B4BC6A",    // thin lines, frames, graph connections, search background
-          gray: "#4B5124",         // text in search box, graph links highlight
-          darkgray: "#1B0A1B",     // loupe, symbols, body text, credits
-          dark: "#2E1A2E",         // headings, unhighlighted folder content, node text
-          secondary: "#1B0A1B",    // header, folders, tags text, active node, links
-          tertiary: "#7C843E",     // selected text background, hover, non-active node
-          highlight: "#6E7536",    // internal link background
-          textHighlight: "#7C843E" // marked text background
+          // Light mode: bleached datasheet, red-ink redactions
+          light: "#F0EDE8",           // background — aged paper, classified doc
+          lightgray: "#D6CFC6",       // thin lines, frames, graph connections
+          gray: "#8C7B6E",            // search box text, graph link highlights
+          darkgray: "#1A1A1A",        // body text — near black
+          dark: "#0D0D0D",            // headings — full black
+          secondary: "#CC0000",       // links, tags, active nodes — breach red
+          tertiary: "#FF4444",        // hover, selected, non-active node
+          highlight: "#FFECEC",       // internal link background — red blush
+          textHighlight: "#FF000033", // marked text — redaction overlay
         },
         darkMode: {
-          light: "#1B0A1B",        // background
-          lightgray: "#2E1A2E",    // thin lines, frames, graph connections, search background
-          gray: "#6E7536",         // text in search box, graph links highlight
-          darkgray: "#8C9444",     // loupe, symbols, body text, credits
-          dark: "#9EA74E",         // headings, unhighlighted folder content, node text
-          secondary: "#A8B05A",    // header, folders, tags text, active node, links
-          tertiary: "#4B5124",    // selected text background, hover, non-active node
-          highlight: "#31380F",    // internal link background
-          textHighlight: "#5E6530" // marked text background
+          // Dark mode: active breach, terminal intrusion
+          light: "#080808",           // background — void black
+          lightgray: "#111111",       // thin lines, frames, graph connections
+          gray: "#2A2A2A",            // graph links, search box elements
+          darkgray: "#B0B0B0",        // body text — dim terminal output
+          dark: "#E8E8E8",            // headings — cold white
+          secondary: "#FF2222",       // links, tags, active nodes — hot breach red
+          tertiary: "#00FF41",        // hover — matrix green, system compromise
+          highlight: "#FF000015",     // internal link background — red ghost
+          textHighlight: "#00FF4120", // marked text — compromised data highlight
         },
       },
     },
@@ -88,7 +89,6 @@ const config: QuartzConfig = {
       Plugin.Static(),
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
-      // Comment out CustomOgImages to speed up build time
       Plugin.CustomOgImages(),
     ],
   },
