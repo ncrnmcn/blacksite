@@ -1,3 +1,380 @@
-@use "./base.scss";
+// =============================================================================
+// BLACKSITE — SECURITY BREACH
+// custom.scss — Quartz v4 theme overrides
+// Drop this into: quartz/styles/custom.scss
+// =============================================================================
 
-// put your custom CSS here!
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Victor+Mono:ital,wght@0,400;0,700;1,400&display=swap');
+
+// -----------------------------------------------------------------------------
+// BREACH VARIABLES
+// -----------------------------------------------------------------------------
+:root {
+  --breach-red: #FF2222;
+  --breach-red-dim: #CC0000;
+  --breach-red-ghost: rgba(255, 34, 34, 0.08);
+  --matrix-green: #00FF41;
+  --matrix-green-dim: #00CC33;
+  --matrix-green-ghost: rgba(0, 255, 65, 0.08);
+  --terminal-white: #E8E8E8;
+  --terminal-dim: #888888;
+  --void: #080808;
+  --scanline-opacity: 0.03;
+}
+
+// -----------------------------------------------------------------------------
+// SCANLINE OVERLAY — persistent across entire page
+// -----------------------------------------------------------------------------
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 0, 0, var(--scanline-opacity)) 2px,
+    rgba(0, 0, 0, var(--scanline-opacity)) 4px
+  );
+  pointer-events: none;
+  z-index: 9999;
+}
+
+// -----------------------------------------------------------------------------
+// GLOBAL BODY
+// -----------------------------------------------------------------------------
+body {
+  background-color: var(--light);
+  letter-spacing: 0.01em;
+}
+
+// Subtle vignette
+#quartz-root {
+  position: relative;
+
+  &::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: radial-gradient(
+      ellipse at center,
+      transparent 50%,
+      rgba(0, 0, 0, 0.45) 100%
+    );
+    pointer-events: none;
+    z-index: 9998;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// HEADER / SITE TITLE
+// -----------------------------------------------------------------------------
+h1#site-title,
+.page-title,
+header .page-title a {
+  font-family: "Share Tech Mono", monospace;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--breach-red) !important;
+
+  // Glitch flicker on load
+  animation: glitch-title 8s infinite;
+
+  &::before {
+    content: "/// ";
+    opacity: 0.4;
+    font-size: 0.7em;
+  }
+}
+
+@keyframes glitch-title {
+  0%, 94%, 100%   { text-shadow: none; clip-path: none; }
+  95%             { text-shadow: 2px 0 var(--matrix-green), -2px 0 var(--breach-red); }
+  96%             { clip-path: inset(10% 0 85% 0); transform: translateX(-3px); }
+  97%             { clip-path: inset(60% 0 20% 0); transform: translateX(3px); }
+  98%             { clip-path: none; transform: none; text-shadow: none; }
+}
+
+// -----------------------------------------------------------------------------
+// HEADINGS
+// -----------------------------------------------------------------------------
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Share Tech Mono", monospace;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+h1 { color: var(--dark); }
+h2 {
+  color: var(--breach-red);
+  &::before { content: "// "; opacity: 0.5; }
+}
+h3 {
+  color: var(--terminal-dim);
+  &::before { content: "> "; opacity: 0.6; }
+}
+
+// -----------------------------------------------------------------------------
+// LINKS
+// -----------------------------------------------------------------------------
+a {
+  color: var(--secondary) !important;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s ease, color 0.15s ease, text-shadow 0.15s ease;
+
+  &:hover {
+    color: var(--tertiary) !important;
+    border-bottom-color: var(--tertiary);
+    text-shadow: 0 0 8px var(--tertiary);
+  }
+}
+
+// Internal wiki-links — redaction style
+.internal {
+  background: var(--highlight);
+  border-radius: 2px;
+  padding: 0 3px;
+
+  &:hover {
+    background: var(--matrix-green-ghost);
+  }
+}
+
+// -----------------------------------------------------------------------------
+// NAVIGATION / EXPLORER
+// -----------------------------------------------------------------------------
+.sidebar-left {
+  border-right: 1px solid rgba(255, 34, 34, 0.15);
+}
+
+.explorer-node {
+  > button, > a {
+    font-family: "Share Tech Mono", monospace;
+    font-size: 0.85em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  &.open > .folder-outer > button {
+    color: var(--breach-red);
+  }
+}
+
+// Active page indicator
+.explorer-node > a.active {
+  color: var(--matrix-green) !important;
+  text-shadow: 0 0 6px var(--matrix-green);
+
+  &::before {
+    content: "▶ ";
+    font-size: 0.7em;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// TAGS
+// -----------------------------------------------------------------------------
+.tag-link, a[href^="/tags/"] {
+  font-family: "Share Tech Mono", monospace;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  background: transparent !important;
+  border: 1px solid var(--breach-red-dim);
+  color: var(--breach-red) !important;
+  padding: 1px 6px;
+  border-radius: 1px;
+  transition: all 0.15s ease;
+
+  &::before { content: "#"; opacity: 0.5; }
+
+  &:hover {
+    background: var(--breach-red-ghost) !important;
+    border-color: var(--breach-red);
+    box-shadow: 0 0 6px var(--breach-red-ghost);
+  }
+}
+
+// -----------------------------------------------------------------------------
+// SEARCH
+// -----------------------------------------------------------------------------
+#search-container {
+  .search-bar {
+    font-family: "Share Tech Mono", monospace;
+    font-size: 0.85em;
+    letter-spacing: 0.05em;
+    border: 1px solid rgba(255, 34, 34, 0.3);
+    border-radius: 1px;
+    background: rgba(255, 34, 34, 0.04);
+    color: var(--darkgray);
+
+    &:focus {
+      border-color: var(--breach-red);
+      box-shadow: 0 0 0 2px var(--breach-red-ghost);
+      outline: none;
+    }
+
+    &::placeholder {
+      content: "SEARCH CLASSIFIED...";
+      opacity: 0.4;
+    }
+  }
+}
+
+// -----------------------------------------------------------------------------
+// CODE BLOCKS — terminal override
+// -----------------------------------------------------------------------------
+pre {
+  border: 1px solid rgba(255, 34, 34, 0.2);
+  border-left: 3px solid var(--breach-red-dim);
+  border-radius: 0 !important;
+  background: rgba(0, 0, 0, 0.6) !important;
+  position: relative;
+
+  &::before {
+    content: "TERMINAL //";
+    display: block;
+    font-family: "Share Tech Mono", monospace;
+    font-size: 0.65em;
+    letter-spacing: 0.1em;
+    color: var(--breach-red-dim);
+    margin-bottom: 0.5em;
+    opacity: 0.6;
+  }
+}
+
+code {
+  font-family: "IBM Plex Mono", monospace;
+  color: var(--matrix-green);
+  background: rgba(0, 255, 65, 0.06) !important;
+  border-radius: 2px;
+  padding: 1px 4px;
+}
+
+// -----------------------------------------------------------------------------
+// BLOCKQUOTES — classified excerpt style
+// -----------------------------------------------------------------------------
+blockquote {
+  border-left: 3px solid var(--breach-red-dim) !important;
+  background: var(--breach-red-ghost);
+  padding: 0.75em 1.25em;
+  border-radius: 0 2px 2px 0;
+  position: relative;
+
+  &::before {
+    content: "INTERCEPTED //";
+    display: block;
+    font-family: "Share Tech Mono", monospace;
+    font-size: 0.65em;
+    letter-spacing: 0.1em;
+    color: var(--breach-red-dim);
+    margin-bottom: 0.4em;
+    opacity: 0.7;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// GRAPH VIEW
+// -----------------------------------------------------------------------------
+.graph-outer {
+  border: 1px solid rgba(255, 34, 34, 0.15);
+  border-radius: 2px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+// Node & link colors are controlled via quartz.config.ts colors,
+// but we add a glow to the active node via CSS targeting
+// (quartz renders graph with canvas/d3 — color overrides in config are primary)
+
+// -----------------------------------------------------------------------------
+// TABLE OF CONTENTS
+// -----------------------------------------------------------------------------
+.toc {
+  border-left: 2px solid rgba(255, 34, 34, 0.3);
+  padding-left: 1em;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 0.8em;
+  letter-spacing: 0.04em;
+
+  a { text-transform: uppercase; }
+}
+
+// -----------------------------------------------------------------------------
+// FOOTER
+// -----------------------------------------------------------------------------
+footer {
+  border-top: 1px solid rgba(255, 34, 34, 0.15);
+  font-family: "Share Tech Mono", monospace;
+  font-size: 0.72em;
+  letter-spacing: 0.06em;
+  opacity: 0.5;
+
+  &::before {
+    content: "// END OF FILE";
+    display: block;
+    color: var(--breach-red-dim);
+    margin-bottom: 0.5em;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// ARTICLE CONTENT AREA — subtle terminal cursor blink after title
+// -----------------------------------------------------------------------------
+article > h1:first-child::after {
+  content: "_";
+  animation: cursor-blink 1.2s step-end infinite;
+  color: var(--breach-red);
+  margin-left: 2px;
+}
+
+@keyframes cursor-blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+
+// -----------------------------------------------------------------------------
+// HORIZONTAL RULES — divider with breach stamp
+// -----------------------------------------------------------------------------
+hr {
+  border: none;
+  border-top: 1px solid rgba(255, 34, 34, 0.2);
+  position: relative;
+  margin: 2em 0;
+
+  &::after {
+    content: "▓▓▓";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--light);
+    padding: 0 0.5em;
+    color: rgba(255, 34, 34, 0.3);
+    font-size: 0.6em;
+    letter-spacing: 0.2em;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// SELECTION HIGHLIGHT
+// -----------------------------------------------------------------------------
+::selection {
+  background: var(--breach-red-ghost);
+  color: var(--breach-red);
+}
+
+// -----------------------------------------------------------------------------
+// SCROLLBAR — terminal style
+// -----------------------------------------------------------------------------
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track { background: var(--lightgray); }
+::-webkit-scrollbar-thumb {
+  background: var(--breach-red-dim);
+  border-radius: 0;
+
+  &:hover { background: var(--breach-red); }
+}
